@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p>Filter ui cards via their profession</p>
+ 
+  <div class="filter-container">
+    <select id="profession-select">
+      <option value="">Profession</option>
+      <option value="developer">Developer</option>
+      <option value="admin">Admin</option>
+    </select>
+
+    <div class="card-container" id="card-container">
+        <!-- yaha par employees add honge -->
+    </div>
+
+    <button id="filter-button">Filter</button>
+  </div>
+
+  <div class="add-employee-form-container">
+    <p>Add a new user</p>
+    <form id="add-employee-form">
+       <div class="form-group">
+          <label for="name-input">Name:</label>
+          <input type="text" id="name-input" required>
+       </div>
+
+       <div class="form-group">
+          <label for="age-input">Age:</label>
+          <input type="number" id="age-input" required>
+       </div>
+
+       <div class="form-group">
+          <label for="profession-input">Profession:</label>
+          <input type="text" id="profession-input" required>
+       </div>
+
+       <input type="submit" value="Add user">
+    </form>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+       
+       
+       
+       
+       
+       
+       
